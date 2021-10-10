@@ -3,6 +3,7 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
+import {Icons} from 'fontisto';
 
 // Summary And Greeting Section
 
@@ -11,26 +12,27 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Adhiraj Bhagawati",
+  title: "Hello! I'm Adhiraj!",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "An aspiring game designer & entrepreneur"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/15wskHkRMhbMtr60ATXJh8v-4sfe2AzJq/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/ReanSchwarzer1",
+  linkedin: "https://www.linkedin.com/in/adhirajb/",
+  gmail: "adhirajquantum1@gmail.com",
+  facebook: "https://www.facebook.com/adhiraj.bhagawati",
+  medium: "https://adhirajquantum1.medium.com/",
+  instagram: "https://www.instagram.com/_reanschwarzer_/",
+  itch: "https://reanschwarzer.itch.io/",
+  steam: "https://steamcommunity.com/id/reansama/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -40,15 +42,16 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "GAME DESIGNER & LEVEL DESIGNER THAT LOVES JRPGs A LITTLE TOO MUCH :)",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "🎮 Designing interactive world in games"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("🕹🖥 Bridging the gap between traditional and interactive media using AR/VR/XR"),
+    emoji("📲 Exploring the differences between traditional Game UX and XR"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ Dabbling in Data Science to bring new life into XR research"),
+    emoji("📈 Striving to become a world-class entrepreneur and bring some change to the world")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -56,56 +59,68 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "unity",
+      fontAwesomeClassname: "fab fa-unity"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "unreal engine 4",
+      fontAwesomeClassname: "fi fi-unreal-engine"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "itch.io",
+      fontAwesomeClassname: "fab fa-itch-io" 
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "github",
+      fontAwesomeClassname: "fi fi-github"   
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "playstation",
+      fontAwesomeClassname: "fi fi-playstation" 
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "xbox",
+      fontAwesomeClassname: "fi fi-xbox" 
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "steam",
+      fontAwesomeClassname: "fi fi-steam" 
     },
     {
       skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      fontAwesomeClassname: "fab fa-python" 
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "c#",
+      fontAwesomeClassname: "fl-c-sharp" 
+    },
+    {
+      skillName: "visual studio",
+      fontAwesomeClassname: "fi fi-visual-studio"
+    },
+    {
+      skillName: "adobe illustrator",
+      fontAwesomeClassname: "fi fi-adobe"
+    },  
+    {
+      skillName: "behance",
+      fontAwesomeClassname: "fi fi-behance" 
+    },
+    {
+      skillName: "trello",
+      fontAwesomeClassname: "fi fi-trello" 
+    },
+    {
+      skillName: "stack overflow",
+      fontAwesomeClassname: "fi fi-stack-overflow" 
+    },
+    {
+      skillName: "javascript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "css",
+      fontAwesomeClassname: "fab fa-css3-alt"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -117,23 +132,28 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "University of California - Davis, U.S.A",
+      logo: require("./assets/images/ucdavis.png"),
+      subHeader: "Exchange Semester in Computer Science & Industrial Design",
+      duration: "Sept 2021 - Dec 2021",
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Asia University, Taiwan",
+      logo: require("./assets/images/asia.png"),
+      subHeader: "Winter School in Artificial Intelligence",
+      duration: "Jan 2021 - Feb 2021",
+    },
+    {
+      schoolName: "Xamk South-Eastern Finland University of Applied Sciences, Finland",
+      logo: require("./assets/images/xamk.png"),
+      subHeader: "Open Studies in Introduction to Video Games Creation",
+      duration: "May 2020 - Dec 2020",
+    },
+    {
+      schoolName: "SRM Institute of Science & Technology, India",
+      logo: require("./assets/images/srmlogo.png"),
+      subHeader: "Bachelor of Technology in Computer Science with a Minor in Design & Innovation",
+      duration: "Jun 2018 - May 2022",
     }
   ]
 };
@@ -144,16 +164,21 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Game Design & Development", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "AR / VR / XR",
+      progressPercentage: "60%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "UX / UI",
+      progressPercentage: "70%"
+    }
+    ,
+    {
+      Stack: "Data Science",
+      progressPercentage: "40%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -165,29 +190,109 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "AR & Unity Developer",
+      company: "Alter Learning, Davis, CA",
+      companylogo: require("./assets/images/alter.jpg"),
+      date: "July 2021 – Present",
+      desc: "Alter Learning is an Educational Gaming Platform dedicated to transforming the latest in scientific research in Educational learning management systems. It is a cloud-based secure online platform that supports student and professional learning in both online and face-to-face classes.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+        "Currently working on an undisclosed Augmented Reality application for professional learning."],
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Game Development Intern",
+      company: "Street Lamp Games",
+      companylogo: require("./assets/images/street.png"),
+      date: "Sept 2019 – Nov 2019",
+      desc: "Street Lamp Games is an Indie Game Studio Startup; known for crafting engaging, entertaining, and innovative games for mobiles and PC users. The studio won the Best Mobile Game award at Indie Prize-Casual Connect'19 London and won back to back awards in 2017 and 2018 at IGDC.",
+      descBullets: [
+        "Developed and maintained design level documentation, including mechanics, guidelines, and mission outlines for a hyper-casual game project titled 'See-Saw Roads'",
+        "Worked on the level design, movement controllers, and base game mechanics."],
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Board Member & Student Researcher",
+      company: "Next Tech Lab - SRMIST",
+      companylogo: require("./assets/images/nextech.jpg"),
+      date: "Sept 2018– May 2022",
+      desc: "The first and only student run multi-disciplinary lab of SRM University at Chennai and Amaravati. The lab has currently 200+ members and associates with it. Next Tech Lab is the Silver Winner of QS Reimagine Education Awards 2018 in Student Led Innovation domain awarded at the Wharton School, University of Pennsylvania.",
+      descBullets: [
+        "Led a team of student researchers in the field of AR/VR, Game Design and Human-Computer Interaction, as part of one of the first student-run research labs in India.",
+        "Researched Game Design, Human-Computer Interaction and Machine Learning within Pausch Lab."],
+    },
+    {
+      role: "Game Design Intern",
+      company: "BladeZ Studios, Delaware",
+      companylogo: require("./assets/images/bladez.jpg"),
+      date: "Mar 2021– Jun 2021",
+      descBullets: [
+        "Presented new game design concepts to management and technical colleagues, including artists, animators, and programmers for the studio's two unreleased products - 'Asmero: Relics of the Sea' and 'Relic Dash'.",
+        "Documented all aspects of formal game design, using mock-up screenshots, sample menu layouts, gameplay flowcharts, and other graphical devices."],
+    },
+    {
+      role: "R & D Intern",
+      company: "Society for Space Education Research and Development (SSERD)",
+      companylogo: require("./assets/images/sserd.jpg"),
+      date: "Oct 2020– Dec 2020",
+      descBullets: [
+        "Researched and worked under the mentorship of Prof. Sundar M N (DST-INSPIRE Fellow) & Pavan Kumar (PhD Student at IMT School for Advanced Studies Lucca, Italy) on - Analysis, computation, modelling & research on ghost mass values of three systems, Cygnus X-1, LMC X-3, and GROJ1655-40.",
+        "Worked on simulating the Cygnus X1 system with Unity 3D."],
+    },
+    {
+      role: "Machine Learning Intern/Trainee",
+      company: "National Instruments",
+      companylogo: require("./assets/images/logo2.png"),
+      date: "May 2020– Jul 2020",
+      descBullets: [
+        "Research study on applications of Artificial Intelligence, Machine Learning, Deep Learning and their implementations on NI IIOT hardware devices and for areas such as healthcare, retail, manufacturing and banking.",
+        "Industrial training on IIOT regarding its uses, applications and research through the 'LabVIEW' tool with controlling and using hardware such as NI MyDAQ through cloud infrastructure."],
+    },
+    {
+      role: "Student Ambassador",
+      company: "Unity Technologies",
+      companylogo: require("./assets/images/unity.png"),
+      date: "Aug 2018– Jun 2021",
+      desc: "The Unity Student Ambassdorship program aims to empower students as community leaders who run workshops, game jams, develop learning resources, and work with faculty and other students to foster student success on their campuses.",
+      descBullets: [
+        "A Unity Student Ambassador is responsible for spreading the Unity brand around campus to students interested in Game Development and Design.",
+        "Ambassadors receive training, access to industry events, and join a global community of other Unity Student Ambassadors to further our mission to democratize game development and XR."],
+    },
+    {
+      role: "Microsoft Student Partner",
+      company: "Microsoft",
+      companylogo: require("./assets/images/microsoft.png"),
+      date: "Jan 2020– May 2022",
+      desc: "Microsoft Learn Student Ambassadors are a global group of campus leaders who are eager to help fellow students, create robust tech communities, and develop technical and career skills for the future.",
+      descBullets: [
+        "Set up a strong foundation of systematic operation within SRM ACM SIGCHI Student Chapter and established corporate partnerships with Unity & Microsoft.",
+        "Conducted over 20+ workshops, webinars, and tech talks with the student communities focused around game development, AI/ML etc."],
+    },
+    {
+      role: "Student Delegate",
+      company: "Harvard Project for Asian and International Relations - HPAIR'21",
+      companylogo: require("./assets/images/hpair.png"),
+      date: "Aug 2021",
+      desc: "For over 30 years, HPAIR’s mission has been to connect the global leaders of today with the leaders of tomorrow in a dynamic forum of exchange. They bring together students and young professionals from around the world to engage and learn from government leaders, business executives, social sector pioneers, celebrities, and leading academics.",
+      descBullets: [
+        "HPAIR conferences features world-class speakers and guests to foster mentorship, networking, and guidance opportunities for delegates.",
+        "Selected as one of the 300 delegates selected from 60+countries."],
+    },
+    {
+      role: "Global Intern",
+      company: "AIESEC In Egypt",
+      companylogo: require("./assets/images/aiesec.png"),
+      date: "Nov 2019- Jan 2020",
+      desc: "AIESEC Global Intern is a cross-cultural experience for youth who want to gain personal development and leave an impact on the world.",
+      descBullets: [
+        "Worked with OBS Software Solutions & other Egyptian Tech Startups for the betterment of the economy of the IT Industry of Egypt and contribute cross-cultural beliefs, ideas, and work culture to the company.",],
+    },
+    {
+      role: "Vice Chairperson",
+      company: "SRMIST ACM SIGCHI Student Chapter",
+      companylogo: require("./assets/images/srmacmsigchi.jpg"),
+      date: "Jul 2020- Jul 2021",
+      descBullets: [
+        "Conducted workshops, talks, study groups, meetings for fostering the Game Dev and Extended Reality community under ACM SIGCHI.",
+        "Collaborated with other teams in the college for various projects and taught new recruits about their chosen domains under SIGCHI.",
+        "Was responsible for overseeing the activities and progress of the various committee and chapter programs."],
     }
   ]
 };
@@ -196,15 +301,15 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Portfolio",
+  subtitle: "SOME OF MY PROJECTS TILL NOW :)",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
@@ -312,7 +417,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -331,7 +436,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -344,22 +449,20 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  title: emoji("Contact Me 🤙"),
+  subtitle: "+91 6000587986 | +1 (916) 695-8489",
+  email_address: "adhirajquantum1@gmail.com",
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {

@@ -127,6 +127,31 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+
+      {socialMediaLinks.itch ? (
+        <a
+          href={socialMediaLinks.itch}
+          className="icon-button itch-io"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-itch-io"></i>
+          <span></span>
+        </a>
+      ) : null}
+ 
+      {socialMediaLinks.steam ? (
+        <a
+          href={socialMediaLinks.steam}
+          className="icon-button steam"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-steam"></i>
+          <span></span>
+        </a>
+      ) : null}
+
     </div>
   );
 }
