@@ -320,7 +320,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/antivirl.gif"),
+      image: require("./assets/images/antivirl.png"),
       projectName: "Anti-viRL",
       projectDesc: "Virtual Reality & Reinforced Learning Hackathon Project",
       footerLink: [
@@ -366,7 +366,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/textbased.jpg"),
+      image: require("./assets/images/textbased.png"),
       projectName: "Text-based Adventure Game (Xamk module)",
       projectDesc: "Game built for the XAMK game dev module in Unity 3D",
       footerLink: [
@@ -388,7 +388,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nn1.gif"),
+      image: require("./assets/images/nn1.png"),
       projectName: "Self-Driving Car",
       projectDesc: "Self-Driving Car using Neural Networks in Unity 3D & UE4",
       footerLink: [
