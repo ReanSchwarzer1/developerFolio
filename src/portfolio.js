@@ -308,7 +308,7 @@ const bigProjects = {
   subtitle: "SOME OF MY PROJECTS TILL NOW :)",
   projects: [
     {
-      image: require("./assets/images/Matrex.jpg"),
+      image: require("./assets/images/Matrex.png"),
       projectName: "MaTrEx - Maintenance and Training with Extended Reality",
       projectDesc: "Virtual Reality Research Project",
       footerLink: [
@@ -332,7 +332,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/ue4frpg.jpg"),
+      image: require("./assets/images/ue4frpg.png"),
       projectName: "First-Person RPG Demo",
       projectDesc: "Game Design / RPG Design / Level Design in Unreal Engine 4",
       footerLink: [
@@ -344,7 +344,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/10.jpg"),
+      image: require("./assets/images/10.png"),
       projectName: "SurviVE",
       projectDesc: "Atmospheric Horror Game built in Unreal Engine 4",
       footerLink: [
@@ -355,7 +355,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/4.jpeg"),
+      image: require("./assets/images/4.png"),
       projectName: "AR-Map",
       projectDesc: "Augmented Reality real-time map application with depth, elevation and 3D objects",
       footerLink: [
@@ -377,7 +377,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/stellarbrk.jpg"),
+      image: require("./assets/images/stellarbrk.png"),
       projectName: "Stellar Break",
       projectDesc: "Game built a for game jam using Unity 3D",
       footerLink: [
