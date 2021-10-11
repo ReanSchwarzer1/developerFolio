@@ -91,10 +91,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python" 
     },
     {
-      skillName: "c#",
-      fontAwesomeClassname: "fl-c-sharp" 
-    },
-    {
       skillName: "visual studio",
       fontAwesomeClassname: "fi fi-visual-studio"
     },
