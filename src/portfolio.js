@@ -420,15 +420,48 @@ const achievementSection = {
       subtitle:
         "Poster selected for presentation at India's largest human-computer interaction conference. Researched on the advantages and limitations of skill training in Virtual Reality.",
       image: require("./assets/images/Indiahci.jpg"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        },
+        {
+          name: "Award Letter",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        },
+        {
+          name: "Google Code-in Blog",
+          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        }
+      ]
     },
     {
-      title: "Covid Gameathon by Angelhack",
+      title: "Google Assistant Action",
       subtitle:
-        "Won 3rd prize in the Covid-19 gameathon/hackathon organized by Angelhack & US Consulate General Hyderabad",
-      image: require("./assets/images/14.png"),
+        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+      image: require("./assets/images/googleAssistantLogo.webp"),
+      footerLink: [
+        {
+          name: "View Google Assistant Action",
+          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+        }
+      ]
+    },
+
+    {
+      title: "PWA Web App Developer",
+      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      image: require("./assets/images/pwaLogo.webp"),
+      footerLink: [
+        {name: "Certification", url: ""},
+        {
+          name: "Final Project",
+          url: "https://pakistan-olx-1.firebaseapp.com/"
+        }
+      ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
