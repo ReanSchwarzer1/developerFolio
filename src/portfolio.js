@@ -188,7 +188,7 @@ const workExperiences = {
     {
       role: "AR & Unity Developer",
       company: "Alter Learning, Davis, CA",
-      companylogo: require("./assets/images/alter.jpg"),
+      companylogo: require("./assets/images/alter.png"),
       date: "July 2021 – Present",
       desc: "Alter Learning is an Educational Gaming Platform dedicated to transforming the latest in scientific research in Educational learning management systems. It is a cloud-based secure online platform that supports student and professional learning in both online and face-to-face classes.",
       descBullets: [
@@ -207,7 +207,7 @@ const workExperiences = {
     {
       role: "Board Member & Student Researcher",
       company: "Next Tech Lab - SRMIST",
-      companylogo: require("./assets/images/nextech.jpg"),
+      companylogo: require("./assets/images/nextech.png"),
       date: "Sept 2018– May 2022",
       desc: "The first and only student run multi-disciplinary lab of SRM University at Chennai and Amaravati. The lab has currently 200+ members and associates with it. Next Tech Lab is the Silver Winner of QS Reimagine Education Awards 2018 in Student Led Innovation domain awarded at the Wharton School, University of Pennsylvania.",
       descBullets: [
@@ -217,7 +217,7 @@ const workExperiences = {
     {
       role: "Game Design Intern",
       company: "BladeZ Studios, Delaware",
-      companylogo: require("./assets/images/bladez.jpg"),
+      companylogo: require("./assets/images/bladez.png"),
       date: "Mar 2021– Jun 2021",
       descBullets: [
         "Presented new game design concepts to management and technical colleagues, including artists, animators, and programmers for the studio's two unreleased products - 'Asmero: Relics of the Sea' and 'Relic Dash'.",
@@ -226,7 +226,7 @@ const workExperiences = {
     {
       role: "R & D Intern",
       company: "Society for Space Education Research and Development (SSERD)",
-      companylogo: require("./assets/images/sserd.jpg"),
+      companylogo: require("./assets/images/sserd.png"),
       date: "Oct 2020– Dec 2020",
       descBullets: [
         "Researched and worked under the mentorship of Prof. Sundar M N (DST-INSPIRE Fellow) & Pavan Kumar (PhD Student at IMT School for Advanced Studies Lucca, Italy) on - Analysis, computation, modelling & research on ghost mass values of three systems, Cygnus X-1, LMC X-3, and GROJ1655-40.",
@@ -283,7 +283,7 @@ const workExperiences = {
     {
       role: "Vice Chairperson",
       company: "SRMIST ACM SIGCHI Student Chapter",
-      companylogo: require("./assets/images/srmacmsigchi.jpg"),
+      companylogo: require("./assets/images/srmacmsigchi.png"),
       date: "Jul 2020- Jul 2021",
       descBullets: [
         "Conducted workshops, talks, study groups, meetings for fostering the Game Dev and Extended Reality community under ACM SIGCHI.",
