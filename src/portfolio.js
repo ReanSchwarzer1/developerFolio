@@ -324,6 +324,30 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/antivirl.gif"),
+      projectName: "Anti-viRL",
+      projectDesc: "Virtual Reality & Reinforced Learning Hackathon Project",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://reanadhiraj.vercel.app/projects/antivirl.html"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/ue4frpg.jpg"),
+      projectName: "First-Person RPG Demo",
+      projectDesc: "Game Design / RPG Design / Level Design in Unreal Engine 4",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://reanschwarzer.itch.io/ue4-first-person-rpg-cel-shaded"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/10.jpg"),
       projectName: "SurviVE",
       projectDesc: "Atmospheric Horror Game built in Unreal Engine 4",
@@ -331,6 +355,50 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://reanadhiraj.vercel.app/projects/survive.html"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/4.jpeg"),
+      projectName: "AR-Map",
+      projectDesc: "Augmented Reality real-time map application with depth, elevation and 3D objects",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://reanadhiraj.vercel.app/projects/armap.html"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/textbased.jpg"),
+      projectName: "Text-based Adventure Game (Xamk module)",
+      projectDesc: "Game built for the XAMK game dev module in Unity 3D",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://github.com/ReanSchwarzer1/Text-based-adventure-game-Xamk-Module-2"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/stellarbrk.jpg"),
+      projectName: "Stellar Break",
+      projectDesc: "Game built a for game jam using Unity 3D",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://prabby-patty.itch.io/stellar-break"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/nn1.gif"),
+      projectName: "Self-Driving Car",
+      projectDesc: "Self-Driving Car using Neural Networks in Unity 3D & UE4",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://reanadhiraj.vercel.app/projects/selfdriving.html"
         }
       ]
     }
@@ -342,16 +410,16 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements 🏆"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "SOME COOL ACHIEVEMENTS :)",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "India HCI 2019 Late-Breaking Work Research",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Poster selected for presentation at India's largest human-computer interaction conference. Researched on the advantages and limitations of skill training in Virtual Reality.",
+      image: require("./assets/images/Indiahci.jpg"),
       footerLink: [
         {
           name: "Certification",
