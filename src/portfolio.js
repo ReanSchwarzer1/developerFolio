@@ -169,16 +169,16 @@ const techStack = {
     },
     {
       Stack: "AR / VR / XR",
-      progressPercentage: "50%"
+      progressPercentage: "70%"
     },
     {
       Stack: "UX / UI",
-      progressPercentage: "70%"
+      progressPercentage: "50%"
     }
     ,
     {
       Stack: "Data Science",
-      progressPercentage: "40%"
+      progressPercentage: "30%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
