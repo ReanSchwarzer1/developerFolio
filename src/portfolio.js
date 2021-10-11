@@ -169,7 +169,7 @@ const techStack = {
     },
     {
       Stack: "AR / VR / XR",
-      progressPercentage: "60%"
+      progressPercentage: "50%"
     },
     {
       Stack: "UX / UI",
