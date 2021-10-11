@@ -312,25 +312,25 @@ const bigProjects = {
   subtitle: "SOME OF MY PROJECTS TILL NOW :)",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Matrex.jpg"),
+      projectName: "MaTrEx - Maintenance and Training with Extended Reality",
+      projectDesc: "Virtual Reality Research Project",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://reanadhiraj.vercel.app/projects/matrex.html"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/10.jpg"),
+      projectName: "SurviVE",
+      projectDesc: "Atmospheric Horror Game built in Unreal Engine 4",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://reanadhiraj.vercel.app/projects/survive.html"
         }
       ]
     }
