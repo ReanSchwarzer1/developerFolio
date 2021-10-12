@@ -45,7 +45,7 @@ const skillsSection = {
   subTitle: "GAME DESIGNER & LEVEL DESIGNER THAT LOVES JRPGs A LITTLE TOO MUCH :)",
   skills: [
     emoji(
-      "🎮 Designing interactive world in games"
+      "🎮 Designing interactive worlds in games"
     ),
     emoji("🕹🖥 Bridging the gap between traditional and interactive media using AR/VR/XR"),
     emoji("📲 Exploring the differences between traditional Game UX and XR"),
