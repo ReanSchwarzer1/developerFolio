@@ -237,8 +237,7 @@ const workExperiences = {
       descBullets: [
         "Research study on applications of Artificial Intelligence, Machine Learning, Deep Learning and their implementations on NI IIOT hardware devices and for areas such as healthcare, retail, manufacturing and banking.",
         "Industrial training on IIOT regarding its uses, applications and research through the 'LabVIEW' tool with controlling and using hardware such as NI MyDAQ through cloud infrastructure."],
-    }
-    /*
+    },
     {
       role: "Student Ambassador",
       company: "Unity Technologies",
@@ -248,8 +247,7 @@ const workExperiences = {
       descBullets: [
         "A Unity Student Ambassador is responsible for spreading the Unity brand around campus to students interested in Game Development and Design.",
         "Ambassadors receive training, access to industry events, and join a global community of other Unity Student Ambassadors to further our mission to democratize game development and XR."],
-    }
-    
+    },
     {
       role: "Microsoft Student Partner",
       company: "Microsoft",
@@ -259,8 +257,7 @@ const workExperiences = {
       descBullets: [
         "Set up a strong foundation of systematic operation within SRM ACM SIGCHI Student Chapter and established corporate partnerships with Unity & Microsoft.",
         "Conducted over 20+ workshops, webinars, and tech talks with the student communities focused around game development, AI/ML etc."],
-    }
-    
+    },
     {
       role: "Student Delegate",
       company: "Harvard Project for Asian and International Relations - HPAIR'21",
@@ -270,8 +267,7 @@ const workExperiences = {
       descBullets: [
         "HPAIR conferences features world-class speakers and guests to foster mentorship, networking, and guidance opportunities for delegates.",
         "Selected as one of the 300 delegates selected from 60+countries."],
-    }
-    
+    },
     {
       role: "Global Intern",
       company: "AIESEC In Egypt",
@@ -291,7 +287,6 @@ const workExperiences = {
         "Collaborated with other teams in the college for various projects and taught new recruits about their chosen domains under SIGCHI.",
         "Was responsible for overseeing the activities and progress of the various committee and chapter programs."],
     }
-    */
   ]
 };
 
