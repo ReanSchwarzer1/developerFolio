@@ -128,6 +128,12 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
+      schoolName: "Rochester Institute of Technology, Rochester, NY, U.S.A",
+      logo: require("./assets/images/rit.png"),
+      subHeader: "Master of Science (MS) in Game Design and Development",
+      duration: "August 2022 - August 2024",
+    },
+    {
       schoolName: "University of California - Davis, U.S.A",
       logo: require("./assets/images/ucdavis.png"),
       subHeader: "Exchange Semester in Computer Science & Industrial Design",
@@ -208,20 +214,11 @@ const workExperiences = {
       role: "Board Member & Student Researcher",
       company: "Next Tech Lab - SRMIST",
       companylogo: require("./assets/images/nextech.png"),
-      date: "Sept 2018– May 2022",
+      date: "Sept 2018 – May 2022",
       desc: "The first and only student run multi-disciplinary lab of SRM University at Chennai and Amaravati. The lab has currently 200+ members and associates with it. Next Tech Lab is the Silver Winner of QS Reimagine Education Awards 2018 in Student Led Innovation domain awarded at the Wharton School, University of Pennsylvania.",
       descBullets: [
         "Led a team of student researchers in the field of AR/VR, Game Design and Human-Computer Interaction, as part of one of the first student-run research labs in India.",
         "Researched Game Design, Human-Computer Interaction and Machine Learning within Pausch Lab."],
-    },
-    {
-      role: "Game Design Intern",
-      company: "BladeZ Studios, Delaware",
-      companylogo: require("./assets/images/bladez.png"),
-      date: "Mar 2021– Jun 2021",
-      descBullets: [
-        "Presented new game design concepts to management and technical colleagues, including artists, animators, and programmers for the studio's two unreleased products - 'Asmero: Relics of the Sea' and 'Relic Dash'.",
-        "Documented all aspects of formal game design, using mock-up screenshots, sample menu layouts, gameplay flowcharts, and other graphical devices."],
     },
     {
       role: "R & D Intern",
@@ -240,7 +237,8 @@ const workExperiences = {
       descBullets: [
         "Research study on applications of Artificial Intelligence, Machine Learning, Deep Learning and their implementations on NI IIOT hardware devices and for areas such as healthcare, retail, manufacturing and banking.",
         "Industrial training on IIOT regarding its uses, applications and research through the 'LabVIEW' tool with controlling and using hardware such as NI MyDAQ through cloud infrastructure."],
-    },
+    }
+    /*
     {
       role: "Student Ambassador",
       company: "Unity Technologies",
@@ -250,7 +248,8 @@ const workExperiences = {
       descBullets: [
         "A Unity Student Ambassador is responsible for spreading the Unity brand around campus to students interested in Game Development and Design.",
         "Ambassadors receive training, access to industry events, and join a global community of other Unity Student Ambassadors to further our mission to democratize game development and XR."],
-    },
+    }
+    
     {
       role: "Microsoft Student Partner",
       company: "Microsoft",
@@ -260,7 +259,8 @@ const workExperiences = {
       descBullets: [
         "Set up a strong foundation of systematic operation within SRM ACM SIGCHI Student Chapter and established corporate partnerships with Unity & Microsoft.",
         "Conducted over 20+ workshops, webinars, and tech talks with the student communities focused around game development, AI/ML etc."],
-    },
+    }
+    
     {
       role: "Student Delegate",
       company: "Harvard Project for Asian and International Relations - HPAIR'21",
@@ -270,7 +270,8 @@ const workExperiences = {
       descBullets: [
         "HPAIR conferences features world-class speakers and guests to foster mentorship, networking, and guidance opportunities for delegates.",
         "Selected as one of the 300 delegates selected from 60+countries."],
-    },
+    }
+    
     {
       role: "Global Intern",
       company: "AIESEC In Egypt",
@@ -290,6 +291,7 @@ const workExperiences = {
         "Collaborated with other teams in the college for various projects and taught new recruits about their chosen domains under SIGCHI.",
         "Was responsible for overseeing the activities and progress of the various committee and chapter programs."],
     }
+    */
   ]
 };
 
