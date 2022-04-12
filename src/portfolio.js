@@ -171,7 +171,7 @@ const techStack = {
     },
     {
       Stack: "AR / VR / XR",
-      progressPercentage: "70%"
+      progressPercentage: "60%"
     },
     {
       Stack: "UX / UI",
@@ -179,8 +179,8 @@ const techStack = {
     }
     ,
     {
-      Stack: "Data Science",
-      progressPercentage: "30%"
+      Stack: "Data Science & Reinforced Learning",
+      progressPercentage: "20%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -223,8 +223,7 @@ const workExperiences = {
       companylogo: require("./assets/images/sserd.png"),
       date: "Oct 2020– Dec 2020",
       descBullets: [
-        "Researched and worked under the mentorship of Prof. Sundar M N (DST-INSPIRE Fellow) & Pavan Kumar (PhD Student at IMT School for Advanced Studies Lucca, Italy) on - Analysis, computation, modelling & research on ghost mass values of three systems, Cygnus X-1, LMC X-3, and GROJ1655-40.",
-        "Worked on simulating the Cygnus X1 system with Unity 3D."],
+        "Researched and worked under the mentorship of Prof. Sundar M N (DST-INSPIRE Fellow) & Pavan Kumar (PhD Student at IMT School for Advanced Studies Lucca, Italy) on - Analysis, computation, modelling & research on ghost mass values of three systems, Cygnus X-1, LMC X-3, and GROJ1655-40 with Unity 3D."],
     },
     {
       role: "Machine Learning Intern/Trainee",
@@ -232,8 +231,8 @@ const workExperiences = {
       companylogo: require("./assets/images/logo2.png"),
       date: "May 2020– Jul 2020",
       descBullets: [
-        "Research study on applications of Artificial Intelligence, Machine Learning, Deep Learning and their implementations on NI IIOT hardware devices and for areas such as healthcare, retail, manufacturing and banking.",
-        "Industrial training on IIOT regarding its uses, applications and research through the 'LabVIEW' tool with controlling and using hardware such as NI MyDAQ through cloud infrastructure."],
+        "Research study on applications of AI, ML, DL and their implementations on NI IIOT hardware devices.",
+        "Industrial training on IIOT regarding its uses, applications and research."],
     },
     {
       role: "Student Ambassador",
@@ -241,8 +240,8 @@ const workExperiences = {
       companylogo: require("./assets/images/unity.png"),
       date: "Aug 2018– Jun 2021",
       descBullets: [
-        "A Unity Student Ambassador is responsible for spreading the Unity brand around campus to students interested in Game Development and Design.",
-        "Ambassadors receive training, access to industry events, and join a global community of other Unity Student Ambassadors to further our mission to democratize game development and XR."],
+        "Responsible for spreading the Unity brand around campus to students interested in Game Development and Design.",
+        "I received training, access to industry events like GDC, and a global community of other ambassadors to further our mission to democratize game development and XR."],
     },
     {
       role: "Microsoft Student Partner",
@@ -277,7 +276,6 @@ const workExperiences = {
       date: "Jul 2020- Jul 2021",
       descBullets: [
         "Conducted workshops, talks, study groups, meetings for fostering the Game Dev and Extended Reality community under ACM SIGCHI.",
-        "Collaborated with other teams in the college for various projects and taught new recruits about their chosen domains under SIGCHI.",
         "Was responsible for overseeing the activities and progress of the various committee and chapter programs."],
     }
   ]
