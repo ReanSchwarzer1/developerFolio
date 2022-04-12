@@ -196,7 +196,6 @@ const workExperiences = {
       company: "Alter Learning, Davis, CA",
       companylogo: require("./assets/images/alter.png"),
       date: "July 2021 – Present",
-      desc: "Alter Learning is an Educational Gaming Platform dedicated to transforming the latest in scientific research in Educational learning management systems. It is a cloud-based secure online platform that supports student and professional learning in both online and face-to-face classes.",
       descBullets: [
         "Currently working on an undisclosed Augmented Reality application for professional learning."],
     },
@@ -205,7 +204,6 @@ const workExperiences = {
       company: "Street Lamp Games",
       companylogo: require("./assets/images/street.png"),
       date: "Sept 2019 – Nov 2019",
-      desc: "Street Lamp Games is an Indie Game Studio Startup; known for crafting engaging, entertaining, and innovative games for mobiles and PC users. The studio won the Best Mobile Game award at Indie Prize-Casual Connect'19 London and won back to back awards in 2017 and 2018 at IGDC.",
       descBullets: [
         "Developed and maintained design level documentation, including mechanics, guidelines, and mission outlines for a hyper-casual game project titled 'See-Saw Roads'",
         "Worked on the level design, movement controllers, and base game mechanics."],
@@ -215,7 +213,6 @@ const workExperiences = {
       company: "Next Tech Lab - SRMIST",
       companylogo: require("./assets/images/nextech.png"),
       date: "Sept 2018 – May 2022",
-      desc: "The first and only student run multi-disciplinary lab of SRM University at Chennai and Amaravati. The lab has currently 200+ members and associates with it. Next Tech Lab is the Silver Winner of QS Reimagine Education Awards 2018 in Student Led Innovation domain awarded at the Wharton School, University of Pennsylvania.",
       descBullets: [
         "Led a team of student researchers in the field of AR/VR, Game Design and Human-Computer Interaction, as part of one of the first student-run research labs in India.",
         "Researched Game Design, Human-Computer Interaction and Machine Learning within Pausch Lab."],
@@ -243,7 +240,6 @@ const workExperiences = {
       company: "Unity Technologies",
       companylogo: require("./assets/images/unity.png"),
       date: "Aug 2018– Jun 2021",
-      desc: "The Unity Student Ambassdorship program aims to empower students as community leaders who run workshops, game jams, develop learning resources, and work with faculty and other students to foster student success on their campuses.",
       descBullets: [
         "A Unity Student Ambassador is responsible for spreading the Unity brand around campus to students interested in Game Development and Design.",
         "Ambassadors receive training, access to industry events, and join a global community of other Unity Student Ambassadors to further our mission to democratize game development and XR."],
@@ -253,7 +249,6 @@ const workExperiences = {
       company: "Microsoft",
       companylogo: require("./assets/images/microsoft.png"),
       date: "Jan 2020– May 2022",
-      desc: "Microsoft Learn Student Ambassadors are a global group of campus leaders who are eager to help fellow students, create robust tech communities, and develop technical and career skills for the future.",
       descBullets: [
         "Set up a strong foundation of systematic operation within SRM ACM SIGCHI Student Chapter and established corporate partnerships with Unity & Microsoft.",
         "Conducted over 20+ workshops, webinars, and tech talks with the student communities focused around game development, AI/ML etc."],
@@ -263,17 +258,15 @@ const workExperiences = {
       company: "Harvard Project for Asian and International Relations - HPAIR'21",
       companylogo: require("./assets/images/hpair.png"),
       date: "Aug 2021",
-      desc: "For over 30 years, HPAIR’s mission has been to connect the global leaders of today with the leaders of tomorrow in a dynamic forum of exchange. They bring together students and young professionals from around the world to engage and learn from government leaders, business executives, social sector pioneers, celebrities, and leading academics.",
       descBullets: [
         "HPAIR conferences features world-class speakers and guests to foster mentorship, networking, and guidance opportunities for delegates.",
         "Selected as one of the 300 delegates selected from 60+countries."],
     },
     {
       role: "Global Intern",
-      company: "AIESEC In Egypt",
+      company: "AIESEC In Egypt & UNESCO",
       companylogo: require("./assets/images/aiesec.png"),
       date: "Nov 2019- Jan 2020",
-      desc: "AIESEC Global Intern is a cross-cultural experience for youth who want to gain personal development and leave an impact on the world.",
       descBullets: [
         "Worked with OBS Software Solutions & other Egyptian Tech Startups for the betterment of the economy of the IT Industry of Egypt and contribute cross-cultural beliefs, ideas, and work culture to the company.",],
     },
