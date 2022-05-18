@@ -76,6 +76,10 @@
   background-color: $steam;
 }
 
+.artstation i {
+  background-color: $steam;
+}
+
 /* Hover Transition */
 .twitter i:hover,
 .google i:hover,
@@ -88,7 +92,8 @@
 .kaggle i:hover,
 .medium i:hover,
 .itch i:hover,
-.steam i:hover {
+.steam i:hover,
+.artstation i:hover {
   background-color: $textColor;
 }
 
