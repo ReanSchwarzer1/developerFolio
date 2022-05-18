@@ -152,6 +152,18 @@ export default function socialMedia() {
         </a>
       ) : null}
 
+{socialMediaLinks.artstation ? (
+        <a
+          href={socialMediaLinks.artstation}
+          className="icon-button artstation"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-artstation"></i>
+          <span></span>
+        </a>
+      ) : null}
+
     </div>
   );
 }

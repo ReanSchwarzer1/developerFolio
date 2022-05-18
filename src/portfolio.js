@@ -33,6 +33,7 @@ const socialMediaLinks = {
   instagram: "https://www.instagram.com/_reanschwarzer_/",
   itch: "https://reanschwarzer.itch.io/",
   steam: "https://steamcommunity.com/id/reansama/",
+  artstation: "https://www.artstation.com/rean_sama",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
