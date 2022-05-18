@@ -133,28 +133,49 @@ const educationInfo = {
       logo: require("./assets/images/rit.png"),
       subHeader: "Master of Science (MS) in Game Design and Development",
       duration: "August 2022 - August 2024",
-      footerLink: "https://drive.google.com/file/d/1eI14A4LZHzm4wIy_y59IRkQCKe_wSHgb/view?usp=sharing",
+      footerLink: [
+        {
+          name: "Acceptance Letter",
+          url: "https://drive.google.com/file/d/1eI14A4LZHzm4wIy_y59IRkQCKe_wSHgb/view?usp=sharing"
+        }
+        //  you can add extra buttons here.
+      ]
     },
     {
       schoolName: "University of California - Davis, U.S.A",
       logo: require("./assets/images/ucdavis.png"),
       subHeader: "Exchange Semester in Computer Science & Industrial Design",
       duration: "Sept 2021 - Dec 2021",
-      footerLink: "https://drive.google.com/file/d/1Iq5_-LaGQpbSO_NJpwuPheyRjSiTNruM/view?usp=sharing",
+      footerLink: [
+        {
+          name: "Transcript",
+          url: "https://drive.google.com/file/d/1Iq5_-LaGQpbSO_NJpwuPheyRjSiTNruM/view?usp=sharing"
+        }
+      ]
     },
     {
       schoolName: "Asia University, Taiwan",
       logo: require("./assets/images/asia.png"),
       subHeader: "Winter School in Artificial Intelligence",
       duration: "Jan 2021 - Feb 2021",
-      footerLink: "https://drive.google.com/file/d/1n0PhtA4c6jrSuiDhY-dEnbur1B9eAL6b/view?usp=sharing",
+      footerLink: [
+        {
+          name: "Transcript",
+          url: "https://drive.google.com/file/d/1n0PhtA4c6jrSuiDhY-dEnbur1B9eAL6b/view?usp=sharing"
+        }
+      ]
     },
     {
       schoolName: "Xamk South-Eastern Finland University of Applied Sciences, Finland",
       logo: require("./assets/images/xamk.png"),
       subHeader: "Open Studies in Introduction to Video Games Creation",
       duration: "May 2020 - Dec 2020",
-      footerLink: "https://drive.google.com/file/d/1SGppbYHBI7QrjFYsapxCw7iY4dW6_M5n/view?usp=sharing",
+      footerLink: [
+        {
+          name: "Transcript",
+          url: "https://drive.google.com/file/d/1SGppbYHBI7QrjFYsapxCw7iY4dW6_M5n/view?usp=sharing"
+        }
+      ]
     },
     {
       schoolName: "SRM Institute of Science & Technology, India",
