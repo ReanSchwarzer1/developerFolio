@@ -377,6 +377,17 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/des157a.png"),
+      projectName: "UC Davis DES 157A (Interactive Media Portfolio)",
+      projectDesc: "Final portfolio/project for DES 157A course",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://reanschwarzer1.github.io/des157a/"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/nn1.png"),
       projectName: "Self-Driving Car",
       projectDesc: "Self-Driving Car using Neural Networks in Unity 3D & UE4",
