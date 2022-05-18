@@ -198,7 +198,8 @@ const workExperiences = {
       companylogo: require("./assets/images/alter.png"),
       date: "July 2021 – Jan 2022",
       descBullets: [
-        "Currently working on an undisclosed Augmented Reality application for professional learning."],
+        "Worked on an Augmented Reality and Virtual Reality application that supports professional learning.",
+        "Worked on other game design projects that educate students."],
     },
     {
       role: "Game Development Intern",
