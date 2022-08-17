@@ -519,7 +519,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me 🤙"),
-  subtitle: "+91 6000587986 | +1 (916) 695-8489",
+  subtitle: "+91 6000587986 | +1 (585) 290-2850",
   email_address: "adhirajquantum1@gmail.com",
 };
 
