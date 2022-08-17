@@ -18,7 +18,7 @@ const greeting = {
     "An aspiring game designer & entrepreneur"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1kUDjgwru2wEtQIt1oyQlvIA2vr2tk0Mq/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/10rWwIvfDSF8pgLvpkJv6YPN2loWhxCN8/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
