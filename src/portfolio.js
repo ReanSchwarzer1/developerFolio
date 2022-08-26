@@ -312,7 +312,7 @@ const bigProjects = {
     {
       image: require("./assets/images/antivirl.png"),
       projectName: "Anti-viRL",
-      projectDesc: "Virtual Reality & Reinforced Learning Hackathon Project",
+      projectDesc: "Augmented Reality & Reinforced Learning Hackathon Project",
       footerLink: [
         {
           name: "Visit Website",
