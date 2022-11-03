@@ -64,28 +64,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-unity"
     },
     {
-      skillName: "unreal engine 4",
+      skillName: "ue4 and ue5",
       fontAwesomeClassname: "fi fi-unreal-engine"
-    },
-    {
-      skillName: "itch.io",
-      fontAwesomeClassname: "fab fa-itch-io" 
     },
     {
       skillName: "github",
       fontAwesomeClassname: "fi fi-github"   
-    },
-    {
-      skillName: "playstation",
-      fontAwesomeClassname: "fi fi-playstation" 
-    },
-    {
-      skillName: "xbox",
-      fontAwesomeClassname: "fi fi-xbox" 
-    },
-    {
-      skillName: "steam",
-      fontAwesomeClassname: "fi fi-steam" 
     },
     {
       skillName: "python",
@@ -94,18 +78,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "visual studio",
       fontAwesomeClassname: "fi fi-visual-studio"
-    },
-    {
-      skillName: "adobe illustrator",
-      fontAwesomeClassname: "fi fi-adobe"
-    },  
-    {
-      skillName: "behance",
-      fontAwesomeClassname: "fi fi-behance" 
-    },
-    {
-      skillName: "trello",
-      fontAwesomeClassname: "fi fi-trello" 
     },
     {
       skillName: "stack overflow",
@@ -118,6 +90,118 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "css",
       fontAwesomeClassname: "fab fa-css3-alt"
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+// Some big projects you have worked on
+
+const bigProjects = {
+  title: "Portfolio",
+  subtitle: "SOME OF MY PROJECTS TILL NOW :)",
+  projects: [
+    {
+      image: require("./assets/images/Matrex.png"),
+      projectName: "MaTrEx - Maintenance and Training with Extended Reality",
+      projectDesc: "Virtual Reality Research Project",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://reanadhiraj.vercel.app/projects/matrex.html"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/antivirl.png"),
+      projectName: "Anti-viRL",
+      projectDesc: "Augmented Reality & Reinforced Learning Hackathon Project",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://reanadhiraj.vercel.app/projects/antivirl.html"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/ue4frpg.png"),
+      projectName: "First-Person RPG Demo",
+      projectDesc: "Game Design / RPG Design / Level Design in Unreal Engine 4",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://reanschwarzer.itch.io/ue4-first-person-rpg-cel-shaded"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/10.png"),
+      projectName: "SurviVE",
+      projectDesc: "Atmospheric Horror Game built in Unreal Engine 4",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://reanadhiraj.vercel.app/projects/survive.html"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/4.png"),
+      projectName: "AR-Map",
+      projectDesc: "Augmented Reality real-time map application with depth, elevation and 3D objects",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://reanadhiraj.vercel.app/projects/armap.html"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/textbased.png"),
+      projectName: "Text-based Adventure Game (Xamk module)",
+      projectDesc: "Game built for the XAMK game dev module in Unity 3D",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://github.com/ReanSchwarzer1/Text-based-adventure-game-Xamk-Module-2"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/stellarbrk.png"),
+      projectName: "Stellar Break",
+      projectDesc: "Game built a for game jam using Unity 3D",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://prabby-patty.itch.io/stellar-break"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/des157a.png"),
+      projectName: "UC Davis DES 157A (Interactive Media Portfolio)",
+      projectDesc: "Final portfolio/project for DES 157A course",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://reanschwarzer1.github.io/des157a/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/nn1.png"),
+      projectName: "Self-Driving Car",
+      projectDesc: "Self-Driving Car using Neural Networks in Unity 3D & UE4",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://reanadhiraj.vercel.app/projects/selfdriving.html"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -164,7 +248,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Game Design & Development", //Insert stack or technology you have experience in
@@ -291,117 +375,7 @@ const openSource = {
   display: false // Set false to hide this section, defaults to true
 };
 
-// Some big projects you have worked on
 
-const bigProjects = {
-  title: "Portfolio",
-  subtitle: "SOME OF MY PROJECTS TILL NOW :)",
-  projects: [
-    {
-      image: require("./assets/images/Matrex.png"),
-      projectName: "MaTrEx - Maintenance and Training with Extended Reality",
-      projectDesc: "Virtual Reality Research Project",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://reanadhiraj.vercel.app/projects/matrex.html"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/antivirl.png"),
-      projectName: "Anti-viRL",
-      projectDesc: "Augmented Reality & Reinforced Learning Hackathon Project",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://reanadhiraj.vercel.app/projects/antivirl.html"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/ue4frpg.png"),
-      projectName: "First-Person RPG Demo",
-      projectDesc: "Game Design / RPG Design / Level Design in Unreal Engine 4",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://reanschwarzer.itch.io/ue4-first-person-rpg-cel-shaded"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/10.png"),
-      projectName: "SurviVE",
-      projectDesc: "Atmospheric Horror Game built in Unreal Engine 4",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://reanadhiraj.vercel.app/projects/survive.html"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/4.png"),
-      projectName: "AR-Map",
-      projectDesc: "Augmented Reality real-time map application with depth, elevation and 3D objects",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://reanadhiraj.vercel.app/projects/armap.html"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/textbased.png"),
-      projectName: "Text-based Adventure Game (Xamk module)",
-      projectDesc: "Game built for the XAMK game dev module in Unity 3D",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://github.com/ReanSchwarzer1/Text-based-adventure-game-Xamk-Module-2"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/stellarbrk.png"),
-      projectName: "Stellar Break",
-      projectDesc: "Game built a for game jam using Unity 3D",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://prabby-patty.itch.io/stellar-break"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/des157a.png"),
-      projectName: "UC Davis DES 157A (Interactive Media Portfolio)",
-      projectDesc: "Final portfolio/project for DES 157A course",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://reanschwarzer1.github.io/des157a/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/nn1.png"),
-      projectName: "Self-Driving Car",
-      projectDesc: "Self-Driving Car using Neural Networks in Unity 3D & UE4",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://reanadhiraj.vercel.app/projects/selfdriving.html"
-        }
-      ]
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
 
 // Achievement Section
 // Include certificates, talks etc
