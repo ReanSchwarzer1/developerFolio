@@ -28,11 +28,7 @@ const socialMediaLinks = {
   github: "https://github.com/ReanSchwarzer1",
   linkedin: "https://www.linkedin.com/in/adhirajb/",
   gmail: "adhirajquantum1@gmail.com",
-  facebook: "https://www.facebook.com/adhiraj.bhagawati",
-  medium: "https://adhirajquantum1.medium.com/",
-  instagram: "https://www.instagram.com/_reanschwarzer_/",
   itch: "https://reanschwarzer.itch.io/",
-  steam: "https://steamcommunity.com/id/reansama/",
   artstation: "https://www.artstation.com/rean_sama",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
