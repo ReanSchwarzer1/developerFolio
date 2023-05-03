@@ -98,6 +98,18 @@ const bigProjects = {
   subtitle: "SOME OF MY PROJECTS TILL NOW :)",
   projects: [
     {
+      image: require("./assets/images/bor.png"),
+      projectName: "Blade of Reclamation",
+      projectDesc: "Academic Project (Rochester Institute of Technology)",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://reanadhiraj.vercel.app/projects/bladeofreclamation.html"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/Matrex.png"),
       projectName: "MaTrEx - Maintenance and Training with Extended Reality",
       projectDesc: "Virtual Reality Research Project",
