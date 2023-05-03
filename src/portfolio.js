@@ -236,7 +236,7 @@ const educationInfo = {
       schoolName: "Rochester Institute of Technology, Rochester, NY, U.S.A",
       logo: require("./assets/images/rit.png"),
       subHeader: "Master of Science (MS) in Game Design and Development",
-      duration: "August 2022 - August 2024",
+      duration: "August 2022 - May 2024",
     },
     {
       schoolName: "University of California - Davis, U.S.A",
