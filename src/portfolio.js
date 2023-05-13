@@ -122,6 +122,18 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/ucgame.png"),
+      projectName: "Untitled Chicken Game",
+      projectDesc: "Academic Project (Rochester Institute of Technology) - 3 Week Development",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://reanadhiraj.vercel.app/projects/untitledchickengame.html"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/Matrex.png"),
       projectName: "MaTrEx - Maintenance and Training with Extended Reality",
       projectDesc: "Virtual Reality Research Project",
