@@ -3,7 +3,16 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
+import splashAnimation from "./assets/lottie/splashAnimation";
 import {Icons} from 'fontisto';
+
+// Splash Screen
+
+const splashScreen = {
+  enabled: true, // set false to disable splash screen
+  animation: splashAnimation,
+  duration: 2000 // Set animation duration as per your animation
+};
 
 // Summary And Greeting Section
 
@@ -39,7 +48,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "GAME DESIGNER & LEVEL DESIGNER THAT LOVES JRPGs A LITTLE TOO MUCH :)",
+  subTitle: "LEVEL & WORLD DESIGNER, VFX ARTIST, AND TECHNICAL GAME DESIGNER THAT LOVES RPGs A LITTLE TOO MUCH :)",
   skills: [
     emoji(
       "🎮 Designing interactive worlds in games"
