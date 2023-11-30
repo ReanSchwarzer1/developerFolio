@@ -11,7 +11,7 @@ import {Icons} from 'fontisto';
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 6000 // Set animation duration as per your animation
+  duration: 2000 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section

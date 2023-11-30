@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import Header from "../components/header/Header";
 import Greeting from "./greeting/Greeting";
 import Skills from "./skills/Skills";
@@ -14,6 +14,8 @@ import Podcast from "./podcast/Podcast";
 import Education from "./education/Education";
 import Top from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
+import SplashScreen from "./splashScreen/SplashScreen";
+import {splashScreen} from "../portfolio";
 import Profile from "./profile/Profile";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
@@ -22,6 +24,20 @@ import "./Main.scss";
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
   const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
+  const [isShowingSplashAnimation, setIsShowingSplashAnimation] = useState(true);
+  
+
+  useEffect(() => {
+    if (splashScreen.enabled) {
+      const splashTimer = setTimeout(
+        () => setIsShowingSplashAnimation(false),
+        splashScreen.duration
+      );
+      return () => {
+        clearTimeout(splashTimer);
+      };
+    }
+  }, []);
 
   const changeTheme = () => {
     setIsDark(!isDark);
@@ -30,22 +46,28 @@ const Main = () => {
   return (
     <div className={isDark ? "dark-mode" : null}>
       <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
-        <Header />
-        <Greeting />
-        <Projects />
-        <StartupProject />
-        <Skills />
-        <StackProgress />
-        <Education />
-        <WorkExperience />
-        <Achievement />
-        <Blogs />
-        <Talks />
-        <Twitter />
-        <Podcast />
-        <Profile />
-        <Footer />
-        <Top />
+        {isShowingSplashAnimation && splashScreen.enabled ? (
+          <SplashScreen />
+        ) : (
+          <>
+            <Header />
+            <Greeting />
+            <Projects />
+            <StartupProject />
+            <Skills />
+            <StackProgress />
+            <Education />
+            <WorkExperience />
+            <Achievement />
+            <Blogs />
+            <Talks />
+            <Twitter />
+            <Podcast />
+            <Profile />
+            <Footer />
+            <Top />
+          </>
+        )}
       </StyleProvider>
     </div>
   );
