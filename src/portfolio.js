@@ -107,6 +107,18 @@ const bigProjects = {
   subtitle: "SOME OF MY PROJECTS TILL NOW :)",
   projects: [
     {
+      image: require("./assets/images/StDNdy.png"),
+      projectName: "Eternal Machination",
+      projectDesc: "Academic Capstone Project (Rochester Institute of Technology)",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://guildnoctua.itch.io/eternal-machination"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/bor.png"),
       projectName: "Blade of Reclamation",
       projectDesc: "Academic Project (Rochester Institute of Technology)",
