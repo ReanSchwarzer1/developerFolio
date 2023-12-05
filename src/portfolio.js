@@ -24,10 +24,10 @@ const greeting = {
   username: "Adhiraj Bhagawati",
   title: "Hello! I'm Adhiraj!",
   subTitle: emoji(
-    "An aspiring game designer & entrepreneur"
+    "Level & World Designer | Technical Game Designer | Tech Art | General Game Programming"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/10rWwIvfDSF8pgLvpkJv6YPN2loWhxCN8/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/12Wt6-uklYlQb5VPpnSHWdfoSy2DLo69e/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -53,11 +53,11 @@ const skillsSection = {
     emoji(
       "🎮 Designing interactive worlds in games"
     ),
-    emoji("🕹🖥 Bridging the gap between traditional and interactive media using AR/VR/XR"),
-    emoji("📲 Exploring the differences between traditional Game UX and XR"),
+    emoji("🕹🖥 Making immersive worlds in games and mastering the art of environmental storytelling"),
+    emoji("📲 Experienced with hyper-casual games and the industry"),
     emoji(
-      "⚡ Dabbling in Data Science to bring new life into XR research"),
-    emoji("📈 Striving to become a world-class entrepreneur and bring some change to the world")
+      "⚡ Dabbling into emerging technologies such as XR"),
+    emoji("📈 Striving to become bring some change to the world")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -446,46 +446,45 @@ const achievementSection = {
       image: require("./assets/images/Indiahci.jpg"),
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Research Poster",
+          url: "https://drive.google.com/file/d/10e8KnuJQ0KeABjEM4T8utlX759dA8FOn/view?usp=sharing"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "COVID-19 Gameathon/Hackathon by Angelhack",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Recipient of the 3rd prize in the Covid-19 Gameathon organized by Angelhack. Competed with teams across the world to make a game/gamified solution to bring awarness to safe COVID-19 protocols",
+      image: require("./assets/images/14.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Prize Certificate",
+          url: "https://drive.google.com/file/d/1UKmhwN-aNbAU2gsL1cWPBueNtz4mflUZ/view?usp=sharing"
+        },
+        {
+          name: "Github Repo",
+          url: "https://github.com/ReanSchwarzer1/Covid-AR-Shooting-RL"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Student Delegate at The Harvard Project for Asian and International Relations",
+      subtitle:
+        "Participated in an open forum on Asian and international issues with global leaders in fields ranging from international relations to technology and the fine arts.",
+      image: require("./assets/images/hpair.png"),
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Recommendation Letter",
+          url: "https://drive.google.com/file/d/1U5hA2RDFJR94-BiErE1BEYPJW3l_0IFn/view?usp=sharing"
+        },
+        {
+          name: "Certificate",
+          url: "https://drive.google.com/file/d/1cuv6bl69zoZjQ7r1hnt8SSEHBKMun2km/view?usp=sharing"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
