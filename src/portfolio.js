@@ -269,13 +269,13 @@ const educationInfo = {
       schoolName: "Rochester Institute of Technology, Rochester, NY, U.S.A",
       logo: require("./assets/images/rit.png"),
       subHeader: "Master of Science (MS) in Game Design and Development",
-      duration: "August 2022 - May 2024",
+      duration: "Aug 2022 - Aug 2024",
     },
     {
       schoolName: "University of California - Davis, U.S.A",
       logo: require("./assets/images/ucdavis.png"),
       subHeader: "Exchange Semester in Computer Science & Industrial Design",
-      duration: "Sept 2021 - Dec 2021",
+      duration: "Sep 2021 - Dec 2021",
     },
     {
       schoolName: "Asia University, Taiwan",
